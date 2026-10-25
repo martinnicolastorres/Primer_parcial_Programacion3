@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Supercars Olivos: una selección curada de autos nobles, deportivos y superdeportivos." />
+    
+    <title>Supercars Olivos</title> <!-- TITULO -->
+    <link rel="icon" href="assets/icono.png">  <!-- ICONO -->
+    
+    <!-- Importación de fuentes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    
+
+</head>
+<body>
+    <header class="header">
+        
+        <a href="index.html" class="logo-link">
+            <img src="assets/icono.png" alt="Supercars Olivos Logo" class="logo-img">
+            
+        </a>
+
+        <!-- Boton contacto -->
+        <div class="header-right">
+            <button id="btnContacto" class="btn-contacto">Contacto</button>
+        </div>
+
+
+    </header>
+
+    <main>
+        <!-- Tarjetas grandes (categorias) -->
+        <section>
+            <div class="contenedor"> <!-- div global-->
+                <!-- Tarjeta 1 Superdeportivo-->
+                <a href="#seccion-superdeportivos" class="card-grande" id="superdeportivos">
+                    <h2 class="card-titulo">Superdeportivo</h2>
+                    <p class="card-parrafo">Potencia, diseno y excusividad.</p>
+                </a>
+                
+                <!-- tarjeta 2 nobles-->
+                <a href="#seccion-nobles" class="card-grande" id="noble">
+                    <h2 class="card-titulo">Nobles</h2>
+                    <p class="card-parrafo">Confort, elegancia y rendimiento.</p>
+                </a>
+
+            </div><!-- fin div global-->
+        </section>
+
+        
+
+        <!-- 1. DIV APARTE: VIDEO BANNER SUPERDEPORTIVOS -->
+        <div class="franja-video-banner" id="seccion-superdeportivos">
+            <video autoplay muted loop playsinline class="video-banner">
+                <source src="assets/Superdeportivos.mp4" type="video/mp4">
+                
+            </video>
+            <div class="capa-oscura"></div>
+            
+        </div>
+        <!-- 2. SECCIÓN DE MODELOS: SUPERDEPORTIVOS (Destino del enlace 1) -->
+        <section  class="seccion-autos">
+        <h2 class="titulo-seccion">Superdeportivos</h2>
+
+        <!-- Contenedor general que pone a los divs uno al lado del otro -->
+        <div class="contenedor-autos">
+
+            <!-- Auto 1 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">Aston Martin db11</h3>
+                <img src="assets/premiums-y-superdeportivos/aston-martin-db11.png" alt="Aston Martin db11">
+            </div>
+
+            <!-- Auto 2 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">Audi R8</h3>
+                <img src="assets/premiums-y-superdeportivos/audi-r8.png" alt="Audi R8">
+            </div>
+
+            <!-- Auto 3  -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">chevrolet corvette</h3>
+                <img src="assets/premiums-y-superdeportivos/chevrolet-corvette.png" alt="chevrolet corvette">
+            </div>
+
+            <!-- Auto 4  -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">ford mustang</h3>
+                <img src="assets/premiums-y-superdeportivos/ford-mustang.png" alt="ford mustang">
+            </div>
+
+            <!-- Auto 5  -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">mercedes benz amg</h3>
+                <img src="assets/premiums-y-superdeportivos/mercedes-benz-amg.png" alt="mercedes benz amg">
+            </div>
+
+            <!-- Auto 6  -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">porsche 911</h3>
+                <img src="assets/premiums-y-superdeportivos/porsche-911.png" alt="porsche 911">
+            </div>
+
+        </div>
+    </section>
+
+
+        <!-- 2. DIV APARTE: VIDEO BANNER NOBLES -->
+        <div class="franja-video-banner" id="seccion-nobles">
+            <video autoplay muted loop playsinline class="video-banner">
+                <source src="assets/Nobles.mp4" type="video/mp4">
+        
+            </video>
+            <div class="capa-oscura"></div>
+            
+        </div>
+
+        <!-- 3. SECCIÓN DE MODELOS: NOBLES (Destino del enlace 2) -->
+        <section  class="seccion-autos">
+        <h2 class="titulo-seccion">Nobles</h2>
+
+        <!-- Contenedor general que pone a los divs uno al lado del otro -->
+        <div class="contenedor-autos">
+
+            <!-- Auto 1 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">audi a3</h3>
+                <img src="assets/nobles-y-deportivos/audi-a3.png" alt="audi a3">
+            </div>
+
+            <!-- Auto 2 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">chevrolet cruze</h3>
+                <img src="assets/nobles-y-deportivos/chevrolet-cruze.png" alt="chevrolet cruze">
+            </div>
+
+            <!-- Auto 3 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">fiat cronos</h3>
+                <img src="assets/nobles-y-deportivos/fiat-kronnos.png" alt="fiat cronos">
+            </div>
+
+            <!-- Auto 4 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">nissan sentra</h3>
+                <img src="assets/nobles-y-deportivos/nissan-sentra.png" alt="nissan sentra">
+            </div>
+
+            <!-- Auto 5 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">toyota corolla</h3>
+                <img src="assets/nobles-y-deportivos/toyota-corolla.png" alt="toyota corolla">
+            </div>
+
+            <!-- Auto 6 -->
+            <div class="card-auto">
+                <h3 class="nombre-auto">volkswagen golf</h3>
+                <img src="assets/nobles-y-deportivos/volkswagen-golf.png" alt="volkswagen golf">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- VENTANA FLOTANTE: CONTACTO -->
+        <div id="ventanaContacto" class="ventana-overlay">
+            <div class="ventana-contenido">
+                <div id="cerrarContacto" class="btn-cerrar"> x </div>
+                <h3 class="ventana-titulo">Supercars Olivos</h3>
+                <p class="ventana-texto" >
+                    <strong>Ubicación: Av. del Libertador 2400, Olivos</strong> <br>
+                    <strong>Horarios: Lun a Vie de 9:00 a 19:00 hs</strong> <br>
+                    <strong>Teléfono:+54 11 0101-0101</strong> <br>
+                    <strong>Email:contacto@supercarsolivos.con</strong><br> 
+                </p>
+                
+            </div>
+        </div>
+
+        
+
+    </main>
+    <!-- Botón para volver arriba -->
+    <button id="btnVolverArriba" class="btn-subir" title="Volver arriba">↑</button>
+
+    <footer class="footer">
+        <p>© 2026 Supercars Olivos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
