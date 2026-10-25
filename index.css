@@ -55,6 +55,7 @@ body{
     max-width: 1300px;
     /* border: #1a1a1f 1px solid; */
     margin: 3rem auto;
+    flex-wrap: wrap;
 }
 
 .card-grande {
@@ -192,6 +193,7 @@ body{
     max-width: 1600px;
     margin: 4rem auto;
     padding: 0 2rem;
+    
 }
 
 .titulo-seccion {
@@ -203,8 +205,9 @@ body{
 
 .contenedor-autos {
     display: flex;
-    gap: 1rem;           
-    
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* CARD DE AUTOS INDIVIDUAL */
@@ -212,7 +215,8 @@ body{
     background-color: #212731; 
     border: 2px solid #212731; 
     border-radius: 14px;
-    width: 280px; 
+    width: 100%;
+    max-width: 200px;
     height: 150px; 
     padding: 1.5rem;
     
@@ -221,6 +225,7 @@ body{
     justify-content: space-between;
     align-items: center;
     transition: border-color 0.3s ;
+    flex-wrap: wrap;
 }
 
 .card-auto:hover {
